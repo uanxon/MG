@@ -1,0 +1,4 @@
+com\cn\moin\Dao\DrMemberMapper.class
+com\cn\moin\service\DrMemberService.class
+com\cn\moin\service\impl\DrMemberServiceImpl.class
+com\cn\moin\pojo\DrMember.class

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.186" errors="1" skipped="0" tests="1" name="mytest.MyTest">
+<testsuite failures="0" time="0.178" errors="1" skipped="0" tests="1" name="mytest.MyTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
     <property name="java.vm.version" value="24.79-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\WorkSpace\space4\MG"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\gitRepository\MG"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\WorkSpace\space4\MG"/>
+    <property name="user.dir" value="F:\gitRepository\MG"/>
     <property name="java.runtime.version" value="1.7.0_79-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\WorkSpace\space4\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8659764467178936406.tmp"/>
+    <property name="classworlds.conf" value="D:\WorkSpace\space4\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7709646188396012941.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.7.0_79\bin;D:\Program Files\TortoiseSVN\bin;E:\Program Files\VisualSVN Server\bin;F:\app\apache-maven-3.3.9\bin;E:\Program Files\MySQL\MySQL Server 5.7\bin;E:\server\apache-ant\bin;D:\Program Files\OpenVPN\bin;D:\Program Files\eclipse;;."/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_79\jre\bin;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.7.0_79\bin;D:\Program Files\TortoiseSVN\bin;E:\Program Files\VisualSVN Server\bin;F:\app\apache-maven-3.3.9\bin;E:\Program Files\MySQL\MySQL Server 5.7\bin;E:\server\apache-ant\bin;D:\Program Files\OpenVPN\bin;D:\Program Files\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.186" classname="mytest.MyTest" name="test">
+  <testcase time="0.178" classname="mytest.MyTest" name="test">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
@@ -124,7 +124,7 @@ Caused by: java.lang.NoSuchMethodError: org.springframework.beans.factory.xml.Xm
 	... 44 more
 </error>
     <system-out>[org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7c0c7ea1] to prepare test instance [mytest.MyTest@184dbba7]
+  [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4704f743] to prepare test instance [mytest.MyTest@17057422]
   java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
